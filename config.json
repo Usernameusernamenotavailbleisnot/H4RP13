@@ -1,0 +1,28 @@
+{
+  "general": {
+    "useProxy": true,
+    "delayBetweenWallets": 30000,
+    "retryDelay": 5000,
+    "maxRetries": 5,
+    "afterCompletionDelay": 90000000,
+    "delayHours": 25,
+    "logToFile": true,
+    "logToConsole": true,
+    "verboseLogging": false
+  },
+  "harpie": {
+    "baseUrl": "https://harpie.io",
+    "chainId": 1,
+    "requestTimeout": 30000,
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+    }
+  },
+  "scan": {
+    "enabled": true,
+    "forceRescan": false
+  }
+}
